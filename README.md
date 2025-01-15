@@ -14,53 +14,68 @@ This guide provides step-by-step instructions to create a folder, initialize it 
   ```List the contents of the current directory:
   ls
   ```
-  ```Navigate to Your Desired Folder:
+  - Navigate to Your Desired Folder:
+  ``` 
   cd ..
   ```
-  ```To enter a specific folder:
+  - To enter a specific folder:
+  ```
   cd 'foldername'
   ```
-  ```Create a new folder where you want to store your project:
+  - Create a new folder where you want to store your project:
+  ```
   mkdir "foldername"
   ```
-  ```Verify that the folder is created:
+  - Verify that the folder is created:
+  ```
   ls
   ```
-  ```To enter a specific folder:
+  - To enter a specific folder:
+  ```
   cd 'foldername'
   ```
-  ```Check the Git status in this folder:
+  - Check the Git status in this folder:
+  ```
   git status
   ```
-  ```Initialize the folder as a git repository:
+  - Initialize the folder as a git repository:
+  ```
   git init
   ```
-  ```Check exisiting remote repositories(if any):
+  - Check exisiting remote repositories(if any):
+  ```
   git remote
   ```
-  ```Add your github repository link:
+  - Add your github repository link:
+  ```
   git remote add origin 'repository-link'
   ```
-  ```Confirm the remote repository has been added:
+  - Confirm the remote repository has been added:
+  ```
   git remote
   ```
-  ```Clone the GitHub repository if required:
+  - Clone the GitHub repository if required:
+  ```
   git clone 'repository-link'
   ```
-  ```List the contents to ensure the repository is cloned:
+  - List the contents to ensure the repository is cloned:
+  ```
   ls
   ```
-  ```Add all files to the staging area:
+  - Add all files to the staging area:
+  ```
   git add .
   ```
-  ```Commit the changes with a meaningful message:
+  - Commit the changes with a meaningful message:
+  ```
   git commit -m "your message"
   ```
-  ```Push the changes to the main branch of the remote repository:
+  - Push the changes to the main branch of the remote repository:
+  ```
   git push origin main
   ```
   
-  ##🎉 You're Done!
+  ## 🎉 You're Done!
 Your folder and files are now pushed to your GitHub repository. You can verify this by visiting your repository on GitHub.
 
   
